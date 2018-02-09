@@ -1,9 +1,40 @@
-#gambling {
-  border: 2px solid red; }
+* {
+  margin: 0;
+  padding: 0; }
 
-#box {
+.bars {
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  top: 30px;
+  right: 30px;
+  cursor: pointer;
+  z-index: 101;
+  padding-top: 9px; }
+
+.bar {
   width: 100px;
-  height: 100px;
-  background-color: red; }
-/*# sourceMappingURL=main.css.map */
+  height: 4px;
+  background-color: crimson;
+  position: absolute; }
 
+span::before,
+span::after {
+  content: "";
+  display: block;
+  background-color: crimson;
+  width: 100px;
+  height: 4px;
+  position: absolute; }
+
+.bar::before {
+  transform: translateY(-9px); }
+
+.bar::after {
+  transform: translateY(9px); }
+
+.bars.active span::before {
+  animation: top-bar 1s;
+  animation-fill-mode: forwards; }
+
+/*# sourceMappingURL=main.css.map */
