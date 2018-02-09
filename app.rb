@@ -8,4 +8,10 @@ get '/poker' do
 	erb :poker
 end
 
+get '/contact' do 
+	erb :contact
+end
 
+get '/blackjack' do
+	erb :blackjack
+end
