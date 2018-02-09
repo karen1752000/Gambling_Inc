@@ -4,3 +4,5 @@
 +# Sass Cache
 +*.scssc
 +.sass-cache/
+public/main.css
+
