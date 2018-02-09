@@ -1,16 +1,38 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<title></title>
 </head>
+
 <body>
-<h1 id="gambling">Gambling2</h1>
-<div class='main-container'><%= yield %></div> 
+	<div class="bars" id="nav-action">
+		<span class="bar"> </span>
+	</div>
+
+	<nav id="nav">
+		<ul>
+			<li class="shape-circle circle-one">
+				<a href="#">Poker</a>
+			</li>
+			<li class="shape-circle circle-two">
+				<a href="#">Blackjack</a>
+			</li>
+			<li class="shape-circle circle-three">
+				<a href="#">Mini Baccarat</a>
+			</li>
+			<li class="shape-circle circle-five">
+				<a href="#">Contact</a>
+		</ul>
+	</nav>
 
 
-<!-- Mike test push -->
-<!-- Andrew test push -->
 
+	<div class='main-container'>
+		<%= yield %>
+	</div>
+	<script type="text/javascript" src='javascript/main.js'></script>
 </body>
+
 </html>
