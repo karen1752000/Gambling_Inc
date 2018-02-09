@@ -41,6 +41,13 @@ body {
   width: 200px;
   margin: auto; }
 
+<<<<<<< HEAD
+#pBox8 {
+  height: 350px;
+  width: 700px;
+  border: 2px solid red;
+  margin-top: 20px; }
+=======
 * {
   margin: 0;
   padding: 0; }
@@ -239,5 +246,6 @@ article a:hover {
     padding-top: 80px;
     font-size: 60px; } }
 
+>>>>>>> master
 
 /*# sourceMappingURL=main.css.map */
