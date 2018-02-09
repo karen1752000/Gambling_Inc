@@ -40,4 +40,10 @@ body {
   width: 200px;
   margin: auto; }
 
+#pBox8 {
+  height: 350px;
+  width: 700px;
+  border: 2px solid red;
+  margin-top: 20px; }
+
 /*# sourceMappingURL=main.css.map */
