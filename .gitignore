@@ -3,6 +3,8 @@
 +
 +# Sass Cache
 +*.scssc
-+.sass-cache/
-public/main.css
+public/css/sass-cache/
+public/css/main.css
+public/css/main.css.map
+
 
