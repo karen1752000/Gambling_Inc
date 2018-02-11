@@ -3,9 +3,10 @@ var hit1 = document.getElementById('hit1');
 var stay1 = document.getElementById('stay1');
 var hit2 = document.getElementById('hit2');
 var stay2 = document.getElementById('stay2');
-var hit3 = document.getElementById('hit2');
-var stay3 = document.getElementById('stay2');
-
+var hit3 = document.getElementById('hit3');
+var stay3 = document.getElementById('stay3');
+var hit4 = document.getElementById('hit4');
+var stay4 = document.getElementById('stay4');
 
 hit1.addEventListener('click', function(){
 	alert("Correct!")
@@ -29,4 +30,13 @@ hit3.addEventListener('click', function(){
 
 stay3.addEventListener('click', function(){
 	alert("Correct!")
+})
+
+
+hit4.addEventListener('click', function(){
+	alert("Correct!")
+});
+
+stay4.addEventListener('click', function(){
+	alert("When the dealer is showing a 7 or higher, and you have 15 you should hit!")
 })
