@@ -1,0 +1,140 @@
+header {
+  background: #35424a;
+  color: #ffffff;
+  padding-top: 20px;
+  min-height: 70px;
+  border-bottom: #e8491d 3px soild; }
+
+header a {
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px; }
+
+header li {
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px; }
+
+header #branding {
+  float: left; }
+
+header #branding h1 {
+  margin: 0; }
+
+header nav {
+  float: right;
+  margin-top: 10px; }
+
+header .highlight, header .current a {
+  color: #e8491d;
+  font-weight: bold; }
+
+header a:hover {
+  color: #cccccc;
+  font-weight: bold; }
+
+body {
+  font: 15px/1.5 Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #f4f4f4; }
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden; }
+
+ul {
+  margin: 0;
+  padding: 0; }
+
+.button_1 {
+  height: 38px;
+  background: #e8491d;
+  border: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #ffffff; }
+
+#showcase {
+  min-height: 400px;
+  background-image: url(../img/1.jpg);
+  width: 0 -400px;
+  text-align: center;
+  color: #ffffff; }
+
+#showcase h1 {
+  margin-top: 100px;
+  font-size: 55px;
+  margin-bottom: 10px; }
+
+#newsletter {
+  padding: 15px;
+  color: #ffffff;
+  background: #35424a; }
+
+#newsletter h1 {
+  float: left; }
+
+#newsletter form {
+  float: right;
+  margin-top: 15px; }
+
+#newsletter input[type="email"] {
+  padding: 4px;
+  height: 25px;
+  width: 250px; }
+
+#boxes {
+  margin-top: 20px; }
+
+#boxes .box {
+  float: left;
+  text-align: center;
+  width: 30%;
+  padding: 10px;
+  text-decoration: none; }
+
+#boxes .box img {
+  width: 90px; }
+
+footer {
+  padding: 20px;
+  margin-top: 20px;
+  color: #ffffff;
+  background-color: #e8491d;
+  text-align: center; }
+
+.wrapper {
+  width: 400px;
+  padding: 30px;
+  background: #708090;
+  margin: 0 auto;
+  margin-top: 100px; }
+
+.wrapper h2 {
+  text-transform: uppercase;
+  color: #e74c3c; }
+
+.wrapper p {
+  color: #222;
+  font-weight: bold; }
+
+.wrapper input[type=text],
+.wrapper input[type=email],
+textarea {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 5px; }
+
+.wrapper input[type=submit] {
+  text-decoration: none;
+  background: #2ecc71;
+  color: #fff;
+  display: #block;
+  padding: 10px 15px;
+  text-align: center;
+  font-size: 15px; }
+
+/*# sourceMappingURL=main.css.map */

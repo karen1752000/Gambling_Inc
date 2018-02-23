@@ -1,0 +1,42 @@
+.wrapper{
+		width: 400px;
+		padding: 30px;
+		background: #708090;
+		margin: 0 auto;
+		margin-top: 100px;
+	}
+	.wrapper h2{
+		text-transform: uppercase;
+		color: #e74c3c;
+	}
+	.wrapper p {
+		color: #222;
+		font-weight: bold;
+	}
+
+	.wrapper input[type=text],
+	.wrapper input[type=email],
+	textarea{
+		width: 100%;
+		margin-bottom: 15px;
+		padding: 5px;
+	}
+ 	.wrapper input[type=submit] {
+ 		text-decoration: none;
+ 		background: #2ecc71;
+ 		color: #fff;
+ 		display: #block;
+ 		padding: 10px 15px;
+ 		text-align: center;
+ 		font-size: 15px;
+	 }
+ aside#sidebar {
+    float: right;
+    width: 30%; 
+    margin-top: 10px;
+}
+
+article#main-col {
+    float: left;
+    width: 65%;
+}
