@@ -14,6 +14,7 @@ var whyNot;
 var whoCares;
 var moreCommits;
 var doneNow;
+var oneMore;
 
 submit.addEventListener('click', function(){
 	if(input.value == earlyPos){
