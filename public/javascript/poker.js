@@ -13,6 +13,7 @@ var helper;
 var whyNot;
 var whoCares;
 var moreCommits;
+var doneNow;
 
 submit.addEventListener('click', function(){
 	if(input.value == earlyPos){
