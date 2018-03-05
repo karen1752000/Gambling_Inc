@@ -12,6 +12,7 @@ var positionHands = document.getElementById('pBox8')
 var helper;
 var whyNot;
 var whoCares;
+var moreCommits;
 
 submit.addEventListener('click', function(){
 	if(input.value == earlyPos){
