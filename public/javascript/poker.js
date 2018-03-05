@@ -11,6 +11,7 @@ var tier7 = "44, 33, 22, low suited connectors"
 var positionHands = document.getElementById('pBox8')
 var helper;
 var whyNot;
+var whoCares;
 
 submit.addEventListener('click', function(){
 	if(input.value == earlyPos){
