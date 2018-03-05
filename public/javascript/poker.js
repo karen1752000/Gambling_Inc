@@ -9,6 +9,7 @@ var tier5 = "77, Ax/s KJo, K10s, A10o"
 var tier6 = "66, 55, K10o, Q10o"
 var tier7 = "44, 33, 22, low suited connectors"
 var positionHands = document.getElementById('pBox8')
+var helper;
 
 submit.addEventListener('click', function(){
 	if(input.value == earlyPos){
